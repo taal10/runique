@@ -18,20 +18,27 @@ runique
 Yeah, that's it.
 
 runique #=> 8 Magical random selections from A-Z, a-z, & 0-9.
+
 runique #=> DFu828fj
 
-No modules or classes in the gem.  Its made for simplicity.  You probably shouldn't use any class, var, whatever names named runique 
+No modules or classes in the gem.  Its made for simplicity.  
+You probably shouldn't use any class, var, whatever names named runique 
 unless you enjoy being frustrated.
 
 Alternative usage:
 
 runique takes 2 optional arguements.
+
 runique(n, totalshuffle)
 
+
 By default, n = 8
+
 By default, totalshuffle = 24
 
+
 n = the amount of magical random characters you want returned.
+
 totalshuffle = Higher number weighs less in favor of securerandom, but increases your limit on n, which is totalshuffle + 24.
 
 Good luck.
